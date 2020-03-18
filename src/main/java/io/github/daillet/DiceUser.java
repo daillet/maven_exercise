@@ -2,8 +2,18 @@ package io.github.daillet;
 
 import java.util.Scanner;
 
+/**
+ * This class creates a triplet of six-sided dice, rolls them once, and returns the object representing the triplet.
+ * 
+ */
 public class DiceUser {
 	
+	/**
+	 * This method create a triplet of dice with 6 side.
+	 * Then the method call the rollAllDice method to roll all of dice.
+	 * 
+	 * @return TripletOfDice
+	 */
 	public static TripletOfDice rollOnce() {
 		
 		TripletOfDice triplet = new TripletOfDice(6);
